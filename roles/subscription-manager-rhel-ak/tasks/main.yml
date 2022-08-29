@@ -1,2 +1,5 @@
-activationkey: "{{ org_activationkey }}"
-org_id: "{{ org_id }}"
+---
+- name: Register host
+  redhat_subscription:
+    activationkey: "{{ org_activationkey }}"
+    org_id: "{{ org_id }}"
