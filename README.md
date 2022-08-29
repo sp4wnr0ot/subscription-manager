@@ -1,7 +1,6 @@
 subscription-manager w/ activation key
 =========
 
-Role to start/stop EC2 instance(s) and conditionally associate/disassociate elastic IP(s) to the same.  
 
 Requirements
 ------------
