@@ -1,10 +1,6 @@
 ---
+- name: RHEL registering hosts
 - hosts: all
-  tasks:
-  - name: RHEL registering hosts
-    group_by:
-      key=os_{{ ansible_distribution }}
-      changed_when: False
-
-  - hosts: os_RedHat
-    roles: - subscription-manager-rhel-ak
+  gather_facts: false
+  roles:
+    - role: subscription-manager-rhel-ak
