@@ -12,12 +12,11 @@ Requirements
 Variables w/ Survey
 --------------
 
-- activationkey: Label generated from access.redhat.com/subscriptions >> management/activation keys
-- org: Your org id, gathered from access.redhat.com/subscriptions
+- activationkey: Generated from access.redhat.com/subscriptions >> management/activation keys
+- org: Gathered from access.redhat.com/subscriptions
 
 Example Playbook
 ----------------
-
 
 
 Author Information
