@@ -5,9 +5,7 @@ Role to start/stop EC2 instance(s) and conditionally associate/disassociate elas
 
 Requirements
 ------------
-- Python 2.7
-- boto
-- AWS access keys with EC2FullAccess privileges
+- Red Hat Collections
 
 Variables w/ Survey
 --------------
