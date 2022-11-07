@@ -1,4 +1,6 @@
 subscription-manager w/ activation key
+Registering hosts over subscriptions 
+
 =========
 
 
@@ -12,8 +14,6 @@ Variables w/ Survey
 - activationkey: Generated from access.redhat.com/subscriptions >> management/activation keys
 - org: Gathered from access.redhat.com/subscriptions
 
-Example Playbook
-----------------
 
 
 Author Information
