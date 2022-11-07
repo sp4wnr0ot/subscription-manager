@@ -1,8 +1,4 @@
 subscription-manager w/ activation key
-Registering hosts over subscriptions 
-
-=========
-
 
 Requirements
 ------------
